@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&family=Ubuntu:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="log3.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="About us.html">About</a> </li>
+                    <li><a href="course.html">Courses</a> </li>
+                    <li><a href="contact.html">Contact</a> </li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR COURSES
+               <br>  &<br>
+            FACILITIES
+        </h1>
+    </section>
+<!-- course -->
+<section class="course">
+    <h1>COURSES WE OFFER</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat mollitia ratione ipsam et
+                dolorum adipisci perferendis, quibusdam cumque saepe dolores ad aspernatur amet provident magni
+                harum. Molestiae, laboriosam officia?</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat mollitia ratione ipsam et
+                dolorum adipisci perferendis, quibusdam cumque saepe dolores ad aspernatur amet provident magni
+                harum. Molestiae, laboriosam officia?</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat mollitia ratione ipsam et
+                dolorum adipisci perferendis, quibusdam cumque saepe dolores ad aspernatur amet provident magni
+                harum. Molestiae, laboriosam officia?</p>
+        </div>
+    </div>
+
+</section>
+     <!-- FACILITES -->
+     <section class="facilites">
+
+        <h1>OUR FACILITIES</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ea dolores, officia pariatur ducimus
+            voluptate.</p>
+
+        <div class="row">
+
+            <div class="facilites-col">
+                <img src="library1.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nobis rerum ullam officiis
+                    quidem.
+                </p>
+            </div>
+            <div class="facilites-col">
+                <img src="play.png">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nobis rerum ullam officiis
+                    quidem.
+                </p>
+            </div>
+            <div class="facilites-col">
+                <img src="cafe1.png">
+                <h3>Yummy and Healthy food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nobis rerum ullam officiis
+                    quidem.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, provident ad non mollitia <br>
+            laboriosam nam sunt explicabo magnam Cum deserunt illum accusantium.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-phone"></i>
+        </div>
+        <p> Made with <i class="fa fa-heart-o"></i> by Vinayak Modi</p>
+    </section>
+    <!-- Java Script for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>l
+
+</html>
